@@ -12,8 +12,7 @@ and the Flutter guide for
 -->
 ---
 <h2>Circular Timer</h2>
-This flutter package give a circular timer widget that is very easy to use and with a smooth animation
-<h3></h3>
+<h3>This flutter package give a circular timer widget that is very easy to use and with a smooth animation</h3>
 ---
 
 
@@ -21,7 +20,8 @@ This flutter package give a circular timer widget that is very easy to use and w
 ## Features
 <h3>Light package that works this PLATFORM: ANDROID IOS LINUX MACOS WEB WINDOWS</h3>
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+<img src="example/screen_records/timer.gif" width=400>
+<img src="example/screen_records/outlined-timer.gif" width=400>
 
 ## Getting started
 <h4>TO install </h4>
