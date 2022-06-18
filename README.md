@@ -10,35 +10,102 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
+<h2>Circular Timer</h2>
 This flutter package give a circular timer widget that is very easy to use and with a smooth animation
+<h3></h3>
+---
+
 
 
 ## Features
-circular_timer
+<h3>Light package that works this PLATFORM: ANDROID IOS LINUX MACOS WEB WINDOWS</h3>
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-##TO install 
-#flutter pub add circular_timer: ^1.0.1
+<h4>TO install </h4>
+<h5><kbd>flutter pub add circular_timer: ^1.0.1</kbd></h5>
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder
+
+Basic usage
 
 ```dart
-const like = 'sample';
+ CircularTimer(
+    duration: const Duration(seconds: 30),
+    radius: 100,
+  ),
 ```
+
+<h5>To change the default color, use the color property </h5>
+
+ ```dart
+  CircularTimer(
+    duration: const Duration(seconds: 10),
+    radius: 100,
+    color: Colors.green,
+  ),
+```
+
+<h5>To repeat the timer after the duration is completed set <i>repeat: true</i> the default value is false.</h5>
+
+ ```dart
+  CircularTimer(
+    duration: const Duration(seconds: 10),
+    radius: 100,
+    color: Colors.green,
+    repeat: true,
+  ),
+```
+
+<h5>The startAngle is the position where it starts counting ` its value must be in radian`</h5>
+<h6>startAngle default value is set to 
+ <code> <i> 1.5 * math.pi</i></code>
+</h6> 
+
+  
+
+
+
+<h5>To form a ring around the circular timer:</h5>
+<h6>you have to set  <code> <i> outline: true</i></code></h6>
+<h6> the ring width can change by setting the <code> <i> outlinedWidth</i></code> to a nonNegative value </h6>
+
+<h4><code>OutlinedPadding</code> is the distance between the ring and the circular timer and can be set to zero to form a border. The default <code>outlinedPadding</code> value is <code>4.0</code></h4>
+
+ ```dart
+  CircularTimer(
+    duration: const Duration(seconds: 10),
+    radius: 100,
+    color: Colors.green,
+    repeat: true,
+    outline: true,
+    outlinedPadding: 0.0
+    outlinedWidth: 3.0
+  ),
+```
+
+<h4>CircularTimer has a <code>decoration</code>property that allow you the rewrite the default <code>outlinedColor </code> that is the ring color`</h4>
+
+```dart 
+   CircularTimer(
+    duration: const Duration(seconds: 10),
+    radius: 100,
+    color: Colors.green,
+    decoration: CircleDecoration(
+      outlinedColor: Colors.green
+    )
+  ),
+```
+<h5>you can rewrite the <code>outlinestyle</code> and <code>circleStyle</code> inside the CircleDecoration</h5>
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+<h4>To contribute to this package</h4>
+https://github.com/morka17/circular_timer
+
+<h4>To file any issues </h4>
+https://github.com/morka17/circular_timer/issues
+
