@@ -108,4 +108,3 @@ https://github.com/morka17/circular_timer
 
 <h4>To file any issues </h4>
 https://github.com/morka17/circular_timer/issues
-

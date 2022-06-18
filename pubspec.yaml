@@ -1,7 +1,7 @@
 name: circular_timer
 description: Circular Timer Widget for Flutter Application
 version: 1.0.1
-homepage:
+homepage: github.com/morka17/circular_timer
 
 environment:
   sdk: ">=2.16.1 <3.0.0"

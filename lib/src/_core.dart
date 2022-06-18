@@ -25,7 +25,7 @@ class CircularTimer extends StatefulWidget {
     this.color = Colors.red,
     /// OutlinedWidth can be set to zero to make it form a border
     this.outlinedWidth = 4,
-    required this.startAngle,
+    this.startAngle = 1.5 * pi,
     required this.radius,
     this.decoration,
     this.outlinedPadding = 4.0,
